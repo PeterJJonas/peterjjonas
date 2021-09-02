@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --complement-color: #E6DFD1;
+  --main-color: #433A29;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--complement-color);
+  color: var(--main-color);
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+main {
+  max-width: 600px;
+  margin:auto;
+  padding: 20px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 0 3px;
+
+}
+
+.peterjjonasLogo {
+  font-size: 60px;
+}
+
+.peterjjonas {
+  font-weight: 900;
+}
+
+.officialPage {
+  font-weight: normal;
+}
+
+.button {
+  margin: 0 10px;
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: auto;
+  text-align: center;
+  color: var(--main-color);
+  border-color: var(--main-color);
+  text-decoration: none;
+}
+
+.shout {
+  font-size: 24px;
+  font-weight: bold;
+}
